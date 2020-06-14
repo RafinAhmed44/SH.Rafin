@@ -23,8 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = ' 
-  █▀▄ █▀█ █▀░ █ █░▀█\x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mShymon-Hasan\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;96mI.FueK.YoUr.MiNd.BnXD \x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mYoutube \x1b[1;97m/ \x1b[1;96mFeelings Creation\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/ShymonHasan\x1b[0m\n[*] Decompiled by ShymonHasan\n'
+logo = '█▀ █░█   █▀█ ▄▀█ █▀▀ █ █▄░█ ▄█ █▀█   █▀▄ █▀█ █▀░ █ █░▀█ \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mShymon-Hasan\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;96mI.FueK.YoUr.MiNd.BnXD \x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mYoutube \x1b[1;97m/ \x1b[1;96mFeelings Creation\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/ShymonHasan\x1b[0m\n[*] Decompiled by ShymonHasan\n'
 
 def tik():
     titik = [
